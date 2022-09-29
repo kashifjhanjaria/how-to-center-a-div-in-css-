@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* with flex box */
+.parentdiv {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: #06283d;
+  width: 100vw;
+  height: 100vh;
+}
+.childdiv {
+  background: #256d85;
+  width: 300px;
+  height: 300px;
+}
